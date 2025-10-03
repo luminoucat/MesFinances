@@ -75,8 +75,6 @@ graph TD;
 
     lep--Il est plein-->laldds
 
-    av--Elle est pleine-->cto
-
     laldds--Il sont pleins-->plein
 
     plein-->ccrémunéré
