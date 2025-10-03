@@ -41,7 +41,7 @@ graph TD;
 
     etf("ETF selon vos convictions : <br> MSCI World <br> S&P500 <br> NASDAQ100")
 
-    crypto("2 à 5% de votre patrimoine en Bitcoin")
+    crypto("Attention, très risqué! <br> Stratégies avancées : <br> Placements à levier <br> Crypto monnaies <br> Actifs exotiques (montres, whisky...) <br> ...")
 
     objectifetf("Quel est votre objectif?")
 
@@ -99,9 +99,9 @@ graph TD;
 
     aversionMT--Je tolère le risque-->456
 
-    aversionLT--Je n'aime pas le risque-->etf
+    aversionLT--J'ai conscience que le temps est un alié dans la gestion du risque-->etf
 
-    aversionLT--Je tolère le risque-->crypto
+    aversionLT--Je n'ai pas peur de perdre de l'argent-->crypto
 
     etf--Oui mais sur quel support ?-->objectifetf
 
