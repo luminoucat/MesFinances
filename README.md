@@ -41,7 +41,7 @@ graph TD;
 
     etf("ETF selon vos convictions : <br> MSCI World <br> S&P500 <br> NASDAQ100")
 
-    crypto("Attention, très risqué! <br> Stratégies avancées : <br> Placements à levier <br> Crypto monnaies <br> Actifs exotiques (montres, whisky...) <br> ...")
+    crypto("Attention, très risqué! <br> N'attibuer qu'une 'petite' portion de son patrimoine <br> Stratégies avancées : <br> Placements à levier <br> Crypto monnaies <br> Actifs exotiques (montres, whisky...) <br> ...")
 
     objectifetf("Quel est votre objectif?")
 
@@ -116,6 +116,8 @@ graph TD;
     objectifetf--Autre-->pea
 
     pea--Il est plein-->cto
+
+    crypto--Pour le reste-->etf
 
    
 
